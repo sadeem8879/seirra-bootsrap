@@ -1,53 +1,187 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    
-    <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5 slider" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Font Awesome CDN Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha384-43oCU0COkNTecVdAw4AxnUR7trjJ3HLTTJNLxgqsJxZRuhhFVt6s92XT9dZ1ZFI2" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <section class="container10">
+        <nav class="nav-bar">
+            <div>
+                <div>
+                    <ul class="nav ms-5 mt-auto navbar1">
+                        <img src="../images/logo.webp" class="mt-5 me-5" height="24px" width="140px"
+                            alt="Description of the image">
+                        <li class="nav-item mt-5 ms-5 nav-text">
+                            <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item mt-5">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item mt-5">
+                            <a class="nav-link" href="service.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item mt-5">
+                            <a class="nav-link" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item mt-5">
+                            <a class="nav-link" href="#">BLOGS</a>
+                        </li>
+                        <li class="nav-item mt-5">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="mt-5 ms-5 fw-normal bg-text ">About Us</h1>
+                <p class="bg-text-1 ms-5">Get to know about us</p>
+                <hr class="line">
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <img src="../images/img1.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../images/img2.webp" alt="">
+                <p class="sm-text-2">DISCOVER THE FEATURES</p>
+                <h1 class="text-13">We don’t hide, we stand tall in front of chalenge</h1>
+                <p class="sm-text-3">Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et
+                    tellus blandit. Etiam
+                    nec odio vestibul.Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec
+                    maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. Nam convallis vel
+                    erat id dictum. Sed ut risus in orci convallis viverra a eget nisi. Aenean pellentesque elit vitae
+                    eros dignissim ultrices.</p>
+                <div class="d-flex mt-5"> <img src="../images/video-icon.webp" style="cursor: pointer;" alt="">
+                    <p class="mt-4 ms-3 fs-6 fw-bold">See how we work</p>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="../images/img1.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../images/img1.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+            <div class="col-lg-6">
+                <img src="../images/grid-2-pic.webp" class="full-img mt-5 mb-5 " alt="">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    </section>
+
+    <!-- <section class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"></div>
+
+        </div>
+    </section> -->
+    <section class="scroll-container mt-5 text-center scroll-mid "><br><br><br><br><br><br><br>
+        <div class="scroll-content ">
+            <div class="scroll-item">
+                <h2 class="fs-4 fw-bold mb-3">"Simply professionals"</h2>
+                <p class="drag-1">Etiam nec odio vestibulum est mattis effic <br>iturut magna. Pellentesque sit am et
+                    tellus <br> blandit. Etiam nec odio vestibul. Etiam nec <br > odio vestibulum est mattis effic iturut
+                    <br> magna .
+                    Pellentesque sitamettellus.
+                </p>
+                <!-- <div class="col-lg-3 ms-5 ps-5 grid-3 "> -->
+                    <img src="../images/sm-img.webp" alt="" class="icon-img">
+                    <p>Smith steve</p>
+                <!-- </div> -->
+            </div>
+            <div class="scroll-item ps-3 pe-3 ">
+                <h2 class="fs-4 fw-bold mb-3">"They are the best"</h2>
+                <p class="drag-1">Etiam nec odio vestibulum est mattis effic <br>iturut magna. Pellentesque sit am et
+                    tellus <br> blandit. Etiam nec odio vestibul. Etiam nec <br> odio vestibulum est mattis effic iturut
+                    <br> magna .
+                    Pellentesque sitamettellus.
+                </p>
+                <!-- <div class="col-lg-3 ms-5 ps-5 grid-3 "> -->
+                    <img src="../images/sm-img.webp" alt="" class="icon-img">                    <p>Smith steve</p>
+
+                <!-- </div> -->
+            </div>
+            <div class="scroll-item">
+                <h2 class="fs-4 fw-bold text-center mb-3">"We just love them"</h2 >
+                <p class="drag-1 ms-5">Etiam nec odio vestibulum est mattis effic <br>iturut magna. Pellentesque sit am et
+                    tellus <br> blandit. Etiam nec odio vestibul. Etiam nec <br> odio vestibulum est mattis effic iturut
+                    <br> magna .
+                    Pellentesque sitamettellus.
+                </p>
+                <!-- <div class="col-lg-3 ms-5 ps-5 grid-3 "> -->
+                    <img src="../images/sm-img.webp" alt="" class="icon-img">                    <p>Smith steve</p>
+
+                </div>
+            </div>
+            <!-- <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div> -->
+        </div>
+    </section>
+
+    <footer class="container mt-5 container6">
+        <div class="row text-12 ms-5 ">
+            <div class="col-lg-4 last-grid1"><img src="../images/white-logo.webp" alt="" class="text-light">
+                <p class="last-text mt-5 fw-normal">Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis.
+                    Nunc nec maximus dui, vel suscipit
+                    dolor. Donec elementum velit a orci facilisis rutrum.</p>
+            </div>
+            <div class="col-lg-4 text-12 last-grid-2">
+                <p class="ms-4 ps-2 mb-4 fw-bolder">instagram</p>
+                <ul class="d-flex">
+                    <li><img src="../images/last-1.webp" alt=""></li>
+                    <li><img src="../images/last-2.webp" alt=""></li>
+                    <li><img src="../images/last-3.webp" alt=""></li>
+                    <li><img src="../images/last-4.webp" alt=""></li>
+                </ul>
+                <ul class="d-flex  ul-img">
+                    <li><img src="../images/last-5.webp" alt=""></li>
+                    <li><img src="../images/last-6.webp" alt=""></li>
+                    <li><img src="../images/last-7.webp" alt=""></li>
+                    <li><img src="../images/last-8.webp" alt=""></li>
+
+                </ul>
+            </div>
+            <div class="col-lg-4 last-grid-3">
+                <p class="text-12 fw-bolder mb-4 ">Subscribe to newsletter</p>
+                <input type="email" placeholder="Your E-mail Address Here" class="input2">
+                <button class="btn button4 mt-4 pt-3 pb-3 px-5 pe-5 ">Subscribe</button>
+                <!-- <input type="button" class="btn button04" value="Subscribe"> -->
+            </div>
+        </div>
+    </footer>
+    <section class="container last-container">
+        <div class="row">
+            <div class="col-lg-12 mt-5 mb-5  ">
+                <h6 class="me-5 ms-5 ps-5">Copyright ©2024 All rights reserved | This template is made with BY <a href="" class="me-5 ">COLORIB <a href=""
+                            class=" ms-5"> <i class="fa-brands fa-pinterest me-4 font-awesome font-awesome1"></i>
+                            <i class="fa-brands fa-facebook me-4 font-awesome"></i>
+                            <i class="fa-brands fa-twitter me-4 font-awesome"></i>
+                            <i class="fa-solid fa-basketball me-4 font-awesome"></i>
+                            <i class="fa-brands fa-behance  me-4 font-awesome"></i>
+                            <i class="fa-brands fa-linkedin me-4 font-awesome"></i> </a>
+            </div>
+        </div></a></h6>
+
+    </section>
+    <script src="index.js"></script>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
